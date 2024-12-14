@@ -135,5 +135,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEADIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
-CORS_ORIGIN_WHITELIST = [ 'http://localhost:5173' ]
+CORS_ORIGIN_WHITELIST = [ 
+    'http://localhost:5173',
+    'https://potfolio-website-09gz.onrender.com/'
+ ]
 
