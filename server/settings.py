@@ -137,6 +137,6 @@ MEDIA_URL = '/media/'
 
 CORS_ORIGIN_WHITELIST = [ 
     'http://localhost:5173',
-    'https://potfolio-website-09gz.onrender.com/'
+    'https://potfolio-website-09gz.onrender.com'
  ]
 
